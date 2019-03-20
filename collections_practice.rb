@@ -31,6 +31,7 @@ end
 def remove_non_strings(tools)
   tools.delete_if {|tool| tool.class != String}
 end
+<<<<<<< HEAD
 
 def count_elements(array)
   counts = Hash.new(0)
@@ -66,3 +67,5 @@ def organize_schools(schools)
     end
     organized
 end
+=======
+>>>>>>> 8a6e298aa34c92274a7c3b0ba415bde89d9fe603
